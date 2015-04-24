@@ -16,9 +16,9 @@ var PostValidator = Ember.Object.create({
             });
         }
 
-        if (!validator.isLength(data.meta_description, 0, 200)) {
+        if (!validator.isLength(data.meta_description, 0, 1200)) {
             validationErrors.push({
-                message: 'Meta Description cannot be longer than 200 characters.'
+                message: 'Meta Description cannot be longer than 1200 characters.'
             });
         }
 
