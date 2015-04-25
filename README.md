@@ -1,7 +1,3 @@
-![Ghost Screenshot](https://cloud.githubusercontent.com/assets/120485/6626466/6dae46b2-c8ff-11e4-8c7c-8dd63b215f7b.jpg)
-
-![Forked Ghost is a publishing platform.](https://cloud.githubusercontent.com/assets/120485/6626501/b2bb072c-c8ff-11e4-8e1a-2e78e68fd5c3.png)
-
 The project is maintained by a non-profit organisation called the **Ghost Foundation**, along with an amazing group of independent [contributors](https://github.com/TryGhost/Ghost/contributors).
 
 - [Ghost.org](https://ghost.org)
@@ -26,7 +22,7 @@ Ghost is also compatible with **Node v0.12** and **io.js v1.2**, but please note
 1. Start Ghost!
     - Local environment: `npm start`
     - On a server: `npm start --production`
-1. `http://localhost:2368/ghost` :tada:
+1. `http://localhost:2368/ghost`
 
 More [install docs](http://support.ghost.org/installation/) here in case you got stuck.
 
@@ -55,7 +51,7 @@ Install grunt. No prizes here.
 npm install -g grunt-cli
 ```
 
-Install Ghost. If you're running locally, use [master](https://github.com/TryGhost/Ghost/tree/master). For production, use [stable](https://github.com/TryGhost/Ghost/tree/stable). :no_entry_sign::rocket::microscope:
+Install Ghost. If you're running locally, use [master](https://github.com/TryGhost/Ghost/tree/master). For production, use [stable](https://github.com/TryGhost/Ghost/tree/stable).
 
 ```bash
 npm install
