@@ -124,6 +124,9 @@ function getActiveThemePaths() {
 }
 
 frontendControllers = {
+    archive : function (req, res, next) {
+      res.render('archive', {message : "Salut Archive!"});
+    },
     homepage: function (req, res, next) {
         // Parse the page number
         var pageParam = req.params.page !== undefined ? parseInt(req.params.page, 10) : 1,
